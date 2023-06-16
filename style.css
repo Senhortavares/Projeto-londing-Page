@@ -1,0 +1,185 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Orbitron:wght@400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+
+
+
+*{
+    font-family: 'inter';
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-color:rgba(48, 48, 48, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    width: 1249px;
+    height: 405px;
+    left: 0px;
+    top: 0px;
+}
+
+#text-header{
+
+    position: absolute;
+    width: 1084px;
+    left: 75px;
+    top: 160px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background: #F9F9F9;;
+    width: 100%;
+    height: 150px;
+}
+
+
+nav div h2{
+    background-color:  #F9F9F9;
+    color: rgb(0, 0, 0);
+    width: 400px;
+    height: 0px;
+    border:px;
+    padding: 7%;
+   
+}
+
+#tema{
+
+    display: flex;
+    text-align: center;
+    position: relative;
+    padding: 50px;
+    height: 0%;
+    
+    
+}
+
+
+#text{
+display: flex;
+padding: 59px;
+align-items: center;
+font-family: 'Inter', sans-serif;
+width: 740px;
+height: 2px;
+left: 7px;
+
+}
+
+
+
+main{
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+section{
+    background-color: rgba(48, 48, 48, 1);
+    color: rgb(253, 253, 253);
+    padding: auto;
+    top: 12px;
+    width: 1249px;
+    height: 660px;
+
+}
+.form{
+    text-align: center;
+    font-size: 30px;
+    margin: 12%;
+    top: 120px;
+    height: 200px;
+}
+#h1{
+    height: 48px;
+    left: 248px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    
+}
+
+#name{
+    text-align: center;
+    height: 129px;
+    top: 166px;
+}
+
+#nome{ 
+    width: 508px;
+    height: 72px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+#emaill{
+    text-align: center;
+    text-align: center;
+    height: 130px;
+    left: 466px;
+    top: 1661px;
+}
+
+#email{
+    width: 508px;
+    height: 72px;
+    left: 466px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+#whats{
+    text-align: center;
+    height: 130px;
+    left: 466px;
+    top: 1661px; 
+}
+
+#whatsapp{
+    width: 508px;
+    height: 72px;
+    left: 466px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+button{
+    text-align: grid;
+    left: 29px;
+    cursor: pointer;
+    column-width: auto;
+    width: 286px;
+    height: 74px;
+    background: rgba(192, 114, 18, 1);
+    color: #F9F9F9;
+    border-radius: 10px;
+    font-family: 'Inter';
+}
+
+button:hover{
+    font-family: 'Inter';
+    background-color: #e3a05d;
+    color: rgb(255, 255, 255);
+    transform: translate(-6px);
+    box-shadow: 0px 15px 27px #ff8000;
+}
